@@ -1,7 +1,7 @@
 psutil
 numpy
-tensorflow==1.15
+tensorflow==1.5
 scipy
 nltk
 sklearn
-annoy
+annoy==1.8.0
