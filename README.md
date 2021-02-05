@@ -2,7 +2,7 @@
 
 You can launch this jupyter notebook in an executable environment by clicking on the button below.
 
-[![Binder](https://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/shawngraham/bindr-test-Identifying-Similar-Images-with-TensorFlow/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/o-date/Identifying-Similar-Images-with-TensorFlow-notebooks/HEAD)
 
 [![DOI](https://zenodo.org/badge/132169566.svg)](https://zenodo.org/badge/latestdoi/132169566)
 
