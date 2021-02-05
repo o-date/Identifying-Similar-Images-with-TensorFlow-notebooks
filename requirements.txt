@@ -1,6 +1,6 @@
 psutil
 numpy
-tensorflow==1.5
+tensorflow==1.14
 scipy
 nltk
 sklearn
