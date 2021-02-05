@@ -6,7 +6,9 @@ You can launch this jupyter notebook in an executable environment by clicking on
 
 [![DOI](https://zenodo.org/badge/132169566.svg)](https://zenodo.org/badge/latestdoi/132169566)
 
-It's based on Douglas Duhaime's tutorial [identifying similar images with tensorflow](http://douglasduhaime.com/posts/identifying-similar-images-with-tensorflow.html) which is very clearly laid out and explained. In this notebook, I've compressed the steps. The 'images' directory only has 25 images in it for demo purposes. In Duhaime's post, the images folder (that you grab with `wget` has about 2000 images in it).
+If you haven't worked with jupyter notebooks before, try the 'Getting Started' notebook first. Otherwise, go with the 'Finding Similar Images' one. Then, you can try examining the results with the 'Affinity propagation' notebook, or the 'visualizing as a network' notebook. Please note that for both of those networks, you _will_ have to make some adjustments to some of the resulting .json or .csv files from 'finding similar images'. Nothing serious.
+
+'Finding similar images' is based on Douglas Duhaime's tutorial [identifying similar images with tensorflow](http://douglasduhaime.com/posts/identifying-similar-images-with-tensorflow.html) which is very clearly laid out and explained. In this notebook, I've compressed the steps. The 'images' directory only has 25 images in it for demo purposes. In Duhaime's post, the images folder (that you grab with `wget` has about 2000 images in it). If you clone this repo locally, you can easily load more images into that folder. Alternatively, you might want to clone this repo into something like [Google Colab](colab.research.google.com/) and connect it to your GDrive (where you might have a folder with hundreds of images ready to go).
 
 UPDATE
 the `requirements.txt` file should list the python bits and pieces need to be installed, so that should save us from having to `!pip` install. There is a package called `RPy2` that can be loaded this way, that then lets us do bits and bobs of R mixed in with python - see [this post](https://medium.com/@mbussonn/baf064ca1fb6).
